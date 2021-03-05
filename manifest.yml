@@ -1,0 +1,5 @@
+---
+applications:
+ - name: toolchain-mngmnt-student
+   random-route: true
+   memory: 128M

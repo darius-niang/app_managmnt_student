@@ -1,0 +1,80 @@
+/* Eléments principaux de la page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}fond_jaune
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+}
+
+footer h2, footer div
+{
+    font-size: 1.3em;
+}
+
+footer h1
+{
+    font-size: center , 2.1em;
+}
+
+
+#tweet
+{
+    width: 38%;
+}
+
+#mes_photos
+{
+    width: 30%;
+}
+
+#mes_amis
+{
+    width: 28%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
